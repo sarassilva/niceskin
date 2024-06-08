@@ -17,10 +17,7 @@ export class ProductService {
   }
 
   getProductById(id: number): Observable<any> {
-    return this.http.get<any[]>(this.apiUrl).pipe(
-      map(products => products.find(product => product.id === id)),
-      catchError(() => of(null)) 
-    );
+    return this.http.get<any>(`${this.apiUrl}/${id}`);
   }
 
 }
