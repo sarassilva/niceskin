@@ -1,0 +1,100 @@
+<header>
+    <div class="container">
+        <button class="mobile-menu" (click)="openSideMenu()">Menu mobile</button>        
+        <a class="name" routerLink="/">Niceskin</a>
+        <nav class="nav-desktop">
+            <ul>
+                <li><a href="/new">New</a></li>
+                <li><a href="/">Bestsellers</a></li>
+                <li><a href="/">Skincare</a></li>
+                <li><a href="/">Hair + Body</a></li>
+                <li><a href="/">Gifts</a></li>
+            </ul>
+        </nav>
+        <ul class="navigation">
+            <li><span class="search">search</span></li>
+            <li><span class="my-account">my account</span> </li>
+            <li><span class="wishlist">wishlist</span></li>
+            <li><button (click)="sideCart()" class="cart">cart</button></li>
+        </ul>        
+    </div>
+
+    <div id="side-menu" class="side-menu">
+        <button class="close" (click)="openSideMenu()">Close</button>
+        <nav class="nav-mobile">
+            <ul>
+                <li><a href="/">New</a></li>
+                <li><a href="/">Bestsellers</a></li>
+                <li><a href="/">Skincare</a></li>
+                <li><a href="/">Hair + Body</a></li>
+                <li><a href="/">Gifts</a></li>
+            </ul>
+
+            <ul class="links">
+                <li><a href="/">My Account</a></li>
+                <li><a href="/">Track Order</a></li>
+                <li><a href="/">Contact Us</a></li>
+            </ul>
+        </nav>            
+    </div>
+
+    <div id="side-cart" class="side-cart">        
+        <div class="header">
+            <div class="title">Shopping Bag <span>(2)</span></div>
+            <button class="close" (click)="sideCart()">Close</button>
+        </div> 
+
+        <ul>
+            <li>
+                <div class="thumb"><img src="../../assets/images/products/rdn-azelaic-acid-suspension-10pct-30ml.webp" /></div>
+                <div class="product">
+                    <div class="info">
+                        <div class="name">Azelaic Acid Suspension 10%</div>
+                        <div class="delete">X</div>
+                    </div>
+                    <div class="target">Textural Irregularities</div>
+                    <div class="flex">
+                        <div class="qtd">
+                            <span>-</span>
+                            <span class="number">1</span>
+                            <span>+</span>
+                        </div>
+                        <div class="price">
+                            $14.60
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="thumb"><img src="../../assets/images/products/multi-peptide-copper-peptides.webp" /></div>
+                <div class="product">
+                    <div class="info">
+                        <div class="name">Multi-Peptide + Copper Peptides 1% Serum</div>
+                        <div class="delete">X</div>
+                    </div>
+                    <div class="target">Signs of Aging, Crow's Feet</div>
+                    <div class="flex">
+                        <div class="qtd">
+                            <span>-</span>
+                            <span class="number">1</span>
+                            <span>+</span>
+                        </div>
+                        <div class="price">
+                            $38.40
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+        <div class="subtotal">
+            <div class="title">SUBTOTAL <span>(Shipping and taxes incl.)</span></div>
+            <div class="price">$53.00</div>
+        </div>
+
+        <div class="buttons">
+            <button class="btn outline" (click)="sideCart()">Continue shopping</button>
+            <a class="btn" href="#">Checkout</a>
+        </div>
+    </div>
+</header>

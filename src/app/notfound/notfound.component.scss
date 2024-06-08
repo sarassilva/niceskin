@@ -1,0 +1,57 @@
+.error {
+    padding: 100px 0;
+    background-color: #f1f1f3;
+    
+    .content {
+        text-align: center;
+
+        h1 {
+            font-size: 4rem;
+            font-weight: 700;
+            margin: 0;
+        }
+
+        .btn {
+            display: inline-block;
+        }
+    }
+
+    @media screen and (min-width: 1000px) {
+        padding: 0;
+        background-color: #fff;
+        position: relative;
+        max-width: 2000px;
+        margin: auto;
+        border-bottom: 1px solid #222;
+
+        .container {
+            display: flex;
+            align-items: center;
+            gap: 80px;
+
+            .image {
+                width: 50%;
+                background-image: url('../../assets/images/error.jpg');
+                background-size: cover;
+                background-position: center;
+                height: 680px;
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+
+            .content {
+                width: 45%;
+                height: 680px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                h1 {
+                    font-size: 5rem;
+                }
+            }
+        }
+    }
+}

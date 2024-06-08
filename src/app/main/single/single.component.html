@@ -1,0 +1,72 @@
+<section class="product product-{{ product.id }}" *ngIf="product">
+    <div class="container">
+  
+      <section class="breadcrumbs">
+        <ul>
+          <li><a routerLink="/">Home</a></li>
+          <li><a routerLink="/products">Shop</a></li>
+          <li>{{ product.name }}</li>
+        </ul>
+      </section>
+  
+      <div class="hold">
+        <div class="gallery">
+             <ngx-slick-carousel class="slider-for" #slickModal="slick-carousel" [config]="slideFor">
+                <div ngxSlickItem class="slide" *ngFor="let thumb of product.gallery">
+                    <div class="image">
+                        <img [src]="'../../../assets/images/products/' + thumb" alt="{{ product.name }}" />
+                    </div>
+                </div>
+            </ngx-slick-carousel>
+
+            <ngx-slick-carousel class="slider-nav" #slickModal="slick-carousel" [config]="slideNav">
+                <div ngxSlickItem class="slide" *ngFor="let thumb of product.gallery">
+                    <div class="thumb">
+                        <img [src]="'../../../assets/images/products/' + thumb" alt="{{ product.name }}" />
+                    </div>
+                </div>
+            </ngx-slick-carousel>
+            
+
+        </div>
+        <div class="content">
+            <div class="targets">MADE FOR {{ product.attributes[0].targets }}</div>
+            <h1>{{ product.name }}</h1>
+
+            <div class="description">
+                <p>{{ product.description }}</p>
+            </div>
+            
+            <div class="variations">
+                <div class="size">
+                    <div class="label">Sizes:</div>
+                    <div *ngFor="let size of product.attributes[0].sizes">
+                        <button (click)="selectSize(size)" [class.selected]="size === selectedSize"> {{ size.volume}} </button>                
+                    </div>
+                </div>
+                <div class="price">
+                    <div *ngIf="selectedSize; else noSelectedSize">
+                       <span>${{ selectedSize.price  }}</span> 
+                    </div>
+                    <ng-template #noSelectedSize>
+                        <span>${{ product.attributes[0].sizes[0].price  }}</span>
+                    </ng-template>
+                </div> 
+            </div>                 
+            
+            <form class="buy">
+                <div class="quantity">
+                    <button type="button" id="decrement-button"> - </button>
+                    <input type="text" id="quantity-input" placeholder="1" required />
+                    <button type="button" id="increment-button"> + </button>
+                </div>
+                <button type="submit" name="add-to-cart" value="102" class="add-to-cart btn">Add to cart</button>
+            </form>
+            
+
+        </div>
+      </div>
+    </div>
+</section>
+
+<app-quiz></app-quiz>

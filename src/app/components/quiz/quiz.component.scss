@@ -1,0 +1,24 @@
+.quiz {
+    background-color: #f6f3f4;
+    background-image: url('../../../assets/images/quiz.webp');
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    background-size: cover;
+    margin-top: 60px;
+    
+    .right {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        gap: 20px;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        font-weight: 500;
+        margin: 0;
+        max-width: 340px;
+    }
+}

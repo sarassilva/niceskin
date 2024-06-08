@@ -1,0 +1,27 @@
+<div class="best-sellers">
+    <div class="container">
+        <h3>Best sellers</h3>
+        <ngx-slick-carousel class="carousel" 
+            #slickModal="slick-carousel" 
+            [config]="slideConfig">
+            @for (slide of slides; track slide.id) {
+                    <div ngxSlickItem class="slide">
+                        <div class="img">
+                            <a [routerLink]="['/products', slide.id]">
+                                <img src="../../../assets/images/products/{{ slide.image }}" alt="{{slide.name}}" width="100%">
+                            </a>
+                        </div>
+                        <div class="flex">
+                            <div>
+                                <h4><a [routerLink]="['/products', slide.id]">{{slide.name}}</a> </h4>
+                                <h5>{{slide.attributes[0].short_description}}</h5>
+                            </div>
+                            <div class="price">${{slide.price}}</div>
+                        </div> 
+                    </div>
+                }
+        </ngx-slick-carousel>  
+
+    </div>
+</div>
+

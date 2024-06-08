@@ -1,0 +1,130 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Natural Moisturizing Factors + HA",
+            "url": "natural-moisturizing-factors-ha",
+            "image": "rdn-natural-moisturizing-factors.png",
+            "price": "100.00",
+            "description": "Use if you want a moisturizer that works with your skin to support its natural hydration barrier. This cream keeps the outer layer of your skin protected and well-hydrated, without feeling greasy. Plus, it provides both immediate and lasting effects.",
+            "gallery": [
+                "rdn-natural-moisturizing-factors.png", "natural-moisturizing-2.webp", "natural-moisturizing-3.webp", "natural-moisturizing-4.webp", "natural-moisturizing-5.webp"
+            ],
+            "attributes": [
+                {
+                    "short_description": "The original surface hydrator.",
+                    "ingredients": "Aqua (Water), Caprylic/Capric Triglyceride, Cetyl Alcohol, Propanediol, Stearyl Alcohol, Glycerin, Sodium Hyaluronate, Arginine, Aspartic Acid, Glycine, Alanine, Serine, Valine, Isoleucine, Proline, Threonine, Histidine, Phenylalanine, Glucose, Maltose, Fructose, Trehalose, Sodium PCA, PCA, Sodium Lactate, Urea, Allantoin, Linoleic Acid, Oleic Acid, Phytosteryl Canola Glycerides, Palmitic Acid, Stearic Acid, Lecithin, Triolein, Tocopherol, Carbomer, Isoceteth-20, Polysorbate 60, Sodium Chloride, Citric Acid, Trisodium Ethylenediamine Disuccinate, Pentylene Glycol, Triethanolamine, Sodium Hydroxide, Phenoxyethanol, Chlorphenesin.",
+                    "targets": "Dryness",
+                    "skin_type": "All Skin Types",
+                    "format": "Emulsion",
+                    "sizes": [
+                        {
+                          "volume": "30ml",
+                          "price": "18.00"
+                        },
+                        {
+                          "volume": "50ml",
+                          "price": "25.00"
+                        }
+                      ],
+                    "category": "Skincare > Moisturizers"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Niacinamide 10% + Zinc 1%",
+            "url": "niacinamide-10-zinc-1",
+            "image": "niacinamide.webp",
+            "price": "80.00",
+            "description": "Our Niacinamide 10% + Zinc 1% formula is a water-based serum that boosts skin brightness, improves skin smoothness and reinforces the skin barrier over time. It contains a high 10% concentration of Niacinamide (vitamin b3) and zinc PCA. <br />Note: Niacinamide and Zinc PCA is not a treatment for acne. For persistent acne-related conditions, we recommend speaking to your health care provider regarding treatment options. This formulation can be used alongside acne treatments if desired for added visible skin benefits.",
+            "attributes": [
+                {
+                    "short_description": "Blemish-prone skin that smooths and brightens",
+                    "ingredients": "Aqua (Water), Niacinamide, Pentylene Glycol, Zinc PCA, Dimethyl Isosorbide, Tamarindus Indica Seed Gum, Xanthan Gum, Isoceteth-20, Ethoxydiglycol, Phenoxyethanol, Chlorphenesin.",
+                    "targets": "Textural Irregularities, Dryness, Dullness, Visible Shine, Signs of Congestion",
+                    "skin_type": "All Skin Types",
+                    "format": "Water-based Serum",
+                    "size": "30ml",
+                    "category": "Skincare > Serums"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Glycolic Acid 7% Toner",
+            "url": "",
+            "image": "glycolic.png",
+            "price": "180.00",
+            "description": "Glycolic Acid 7% Exfoliating Toner (previously Glycolic Acid 7% Toning Solution) is an exfoliator that significantly smoothes skin texture and promotes the appearance of a more even skin tone, as well as more luminous skin, with regular use. It also reduces the appearance of lines and wrinkles. The water-based toner format is suited to daily use.",
+            "attributes": [
+                {
+                    "short_description": "Smooth skin texture and enhances luminosity",
+                    "ingredients": "Aqua (Water), Glycolic Acid, Rosa Damascena Flower Water, Centaurea Cyanus Flower Water, Aloe Barbadensis Leaf Water, Propanediol, Glycerin, Triethanolamine, Aminomethyl Propanol, Panax Ginseng Root Extract, Tasmannia Lanceolata Fruit/Leaf Extract, Aspartic Acid, Alanine, Glycine, Serine, Valine, Isoleucine, Proline, Threonine, Histidine, Phenylalanine, Glutamic Acid, Arginine, Pca, Sodium Pca, Sodium Lactate, Fructose, Glucose, Sucrose, Urea, Hexyl Nicotinate, Dextrin, Citric Acid, Polysorbate 20, Gellan Gum, Trisodium Ethylenediamine Disuccinate, Sodium Chloride, Hexylene Glycol, Potassium Sorbate, Sodium Benzoate, 1,2-Hexanediol, Caprylyl Glycol.",
+                    "targets": "Textural Irregularities, Dullness, Uneven Skin Tone",
+                    "skin_type": "All Skin Types",
+                    "format": "Water-based Toner",
+                    "size": "100ml",
+                    "category": "Skincare > Toners"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Squalane Cleanser",
+            "url": "",
+            "image": "squalane.webp",
+            "price": "75.00",
+            "description": "Squalane Cleanser is formulated to clean skin by removing makeup and dirt. This cleanser also supports your skin’s moisture barrier through hydration. Its skin-cleansing properties harness plant-derived squalane, a well-studied moisturizing agent, alongside lipophilic esters that will leave your skin feeling smooth and soft while dissolving makeup. The formula is non-comedogenic and soap-free so it’s gentle enough for daily use, suitable for all skin types, and suitable to combine with our other products.",
+            "attributes": [
+                {
+                    "short_description": "A moisturizing all-in-one cleanser.",
+                    "ingredients": "Squalane, Aqua (Water), Coco-Caprylate/Caprate, Glycerin, Sucrose Stearate, Ethyl Macadamiate, Caprylic/Capric Triglyceride, Hydrogenated Starch Hydrolysate, Sucrose Laurate, Polyacrylate Crosspolymer-6, Isoceteth-20, Sodium Polyacrylate, Tocopherol, Hydroxymethoxyphenyl Decanone, Trisodium Ethylenediamine Disuccinate, Malic Acid, Ethylhexylglycerin, Chlorphenesin.",
+                    "targets": "Cleansing, Dryness",
+                    "skin_type": "All Skin Types",
+                    "format": "Emulsion",
+                    "size": "50ml",
+                    "category": "Skincare > Facial Cleansers"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Azelaic Acid Suspension 10%",
+            "url": "",
+            "image": "rdn-azelaic-acid-suspension-10pct-30ml.webp",
+            "price": "14.60",
+            "description": "This Advanced Retinoid Eye Balm literally melts into your skin, infusing it with proven ingredients that visibly soften fine lines and wrinkles while firming and restoring bounce. Granactive retinoid—a gentler, less irritating form of retinol—reforms texture to reduce the appearance of crow’s feet (and may even help reduce milia—those tiny, flesh-colored bumps that commonly appear around the eyes). This eye balm also features shiitake mushroom extract to support the skin’s moisture barrier, and nourishing antioxidants like vitamin E and black currant seed oil to help protect against premature signs of aging while moisturizing the delicate skin around your eyes.",
+            "attributes": [
+                {
+                    "short_description": "A formula for uneven and blemish-prone skin.",
+                    "ingredients": "Aqua (Water), Isodecyl Neopentanoate, Dimethicone, Azelaic Acid, Dimethicone/Bis-Isobutyl Ppg-20 Crosspolymer, Dimethyl Isosorbide, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Polysilicone-11, Isohexadecane, Tocopherol, Trisodium Ethylenediamine Disuccinate, Isoceteth-20, Polysorbate 60, Triethanolamine, Ethoxydiglycol, Phenoxyethanol, Chlorphenesin.",
+                    "targets": "Textural Irregularities, Dullness, Uneven Skin Tone, Look of Redness",
+                    "skin_type": "All Skin Types",
+                    "format": "Suspension",
+                    "size": "30ml",
+                    "category": "Skincare > Facial Cleansers"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Multi-Peptide + Copper Peptides 1% Serum",
+            "url": "",
+            "image": "multi-peptide-copper-peptides.webp",
+            "price": "38.40",
+            "description": "This Advanced Retinoid Eye Balm literally melts into your skin, infusing it with proven ingredients that visibly soften fine lines and wrinkles while firming and restoring bounce. Granactive retinoid—a gentler, less irritating form of retinol—reforms texture to reduce the appearance of crow’s feet (and may even help reduce milia—those tiny, flesh-colored bumps that commonly appear around the eyes). This eye balm also features shiitake mushroom extract to support the skin’s moisture barrier, and nourishing antioxidants like vitamin E and black currant seed oil to help protect against premature signs of aging while moisturizing the delicate skin around your eyes.",
+            "attributes": [
+                {
+                    "short_description": "A formula for uneven and blemish-prone skin.",
+                    "ingredients": "Aqua (Water), Glycerin, Lactococcus Ferment Lysate, Copper Tripeptide-1, Acetyl Hexapeptide-8, Pentapeptide-18, Palmitoyl Tripeptide-1, Palmitoyl Tetrapeptide-7, Palmitoyl Tripeptide-38, Dipeptide Diaminobutyroyl Benzylamide Diacetate, Acetylarginyltryptophyl Diphenylglycine, Sodium Hyaluronate Crosspolymer, Sodium Hyaluronate, Allantoin, Glycine, Alanine, Serine, Valine, Isoleucine, Proline, Threonine, Histidine, Phenylalanine, Arginine, Aspartic Acid, Trehalose, Fructose, Glucose, Maltose, Urea, Sodium Pca, Pca, Sodium Lactate, Citric Acid, Hydroxypropyl Cyclodextrin, Sodium Chloride, Sodium Hydroxide, Butylene Glycol, Pentylene Glycol, Acacia Senegal Gum, Xanthan Gum, Carbomer, Polysorbate 20, Dimethyl Isosorbide, Sodium Benzoate, Caprylyl Glycol, Ethylhexylglycerin, Phenoxyethanol, Chlorphenesin.",
+                    "targets": "Signs of Aging, Crow's Feet",
+                    "skin_type": "All Skin Types",
+                    "format": "Water-based Serum",
+                    "size": "30ml",
+                    "category": "Skincare > Serums"
+                }
+            ]
+        }
+    ]
+}
