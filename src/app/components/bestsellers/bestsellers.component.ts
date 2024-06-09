@@ -1,20 +1,27 @@
 import { HttpClientModule } from '@angular/common/http';
 import { Component } from '@angular/core';
-import jsonData from '../../../data/feed.json';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { RouterLink, RouterOutlet } from '@angular/router';
-import { ProductsComponent } from '../products/products.component';
+import { ProductService } from '../products/product.service';
 
 @Component({
   selector: 'app-bestsellers',
   standalone: true,
-  imports: [HttpClientModule, SlickCarouselModule, RouterLink, RouterOutlet, ProductsComponent],
+  imports: [HttpClientModule, SlickCarouselModule, RouterLink, RouterOutlet],
   templateUrl: './bestsellers.component.html',
   styleUrl: './bestsellers.component.scss'
 })
 
 export class BestsellersComponent {
-  slides: any[] = jsonData.products;
+  slides: any[] = [];
+
+  constructor(private productService: ProductService) { }
+
+  ngOnInit(): void {
+    this.productService.getProducts().subscribe(data => {
+      this.slides = data;
+    });
+  }
   
   slideConfig = {
     slidesToShow: 3, 

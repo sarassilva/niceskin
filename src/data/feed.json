@@ -5,7 +5,6 @@
             "name": "Natural Moisturizing Factors + HA",
             "url": "natural-moisturizing-factors-ha",
             "image": "rdn-natural-moisturizing-factors.png",
-            "price": "100.00",
             "description": "Use if you want a moisturizer that works with your skin to support its natural hydration barrier. This cream keeps the outer layer of your skin protected and well-hydrated, without feeling greasy. Plus, it provides both immediate and lasting effects.",
             "gallery": [
                 "rdn-natural-moisturizing-factors.png", "natural-moisturizing-2.webp", "natural-moisturizing-3.webp", "natural-moisturizing-4.webp", "natural-moisturizing-5.webp"
@@ -36,8 +35,10 @@
             "name": "Niacinamide 10% + Zinc 1%",
             "url": "niacinamide-10-zinc-1",
             "image": "niacinamide.webp",
-            "price": "80.00",
-            "description": "Our Niacinamide 10% + Zinc 1% formula is a water-based serum that boosts skin brightness, improves skin smoothness and reinforces the skin barrier over time. It contains a high 10% concentration of Niacinamide (vitamin b3) and zinc PCA. <br />Note: Niacinamide and Zinc PCA is not a treatment for acne. For persistent acne-related conditions, we recommend speaking to your health care provider regarding treatment options. This formulation can be used alongside acne treatments if desired for added visible skin benefits.",
+            "description": "Our Niacinamide 10% + Zinc 1% formula is a water-based serum that boosts skin brightness, improves skin smoothness and reinforces the skin barrier over time. It contains a high 10% concentration of Niacinamide (vitamin b3) and zinc PCA.",
+            "gallery": [
+                "niacinamide.webp", "niacinamide-2.webp", "niacinamide-3.webp", "niacinamide-4.webp"
+            ],
             "attributes": [
                 {
                     "short_description": "Blemish-prone skin that smooths and brightens",
@@ -45,7 +46,20 @@
                     "targets": "Textural Irregularities, Dryness, Dullness, Visible Shine, Signs of Congestion",
                     "skin_type": "All Skin Types",
                     "format": "Water-based Serum",
-                    "size": "30ml",
+                    "sizes": [
+                        {
+                            "volume": "30ml",
+                            "price": "7.20"
+                        },
+                        {
+                            "volume": "60ml",
+                            "price": "13.00"
+                        },
+                        {
+                            "volume": "120ml",
+                            "price": "23.90"
+                        }
+                      ],
                     "category": "Skincare > Serums"
                 }
             ]
@@ -55,8 +69,10 @@
             "name": "Glycolic Acid 7% Toner",
             "url": "",
             "image": "glycolic.png",
-            "price": "180.00",
-            "description": "Glycolic Acid 7% Exfoliating Toner (previously Glycolic Acid 7% Toning Solution) is an exfoliator that significantly smoothes skin texture and promotes the appearance of a more even skin tone, as well as more luminous skin, with regular use. It also reduces the appearance of lines and wrinkles. The water-based toner format is suited to daily use.",
+            "description": "Exfoliator that significantly smoothes skin texture and promotes the appearance of a more even skin tone, as well as more luminous skin, with regular use. It also reduces the appearance of lines and wrinkles. The water-based toner format is suited to daily use.",
+            "gallery": [
+                "glycolic.png", "glycolic-2.webp", "glycolic-3.webp", "glycolic-4.webp"
+            ],
             "attributes": [
                 {
                     "short_description": "Smooth skin texture and enhances luminosity",
@@ -64,7 +80,16 @@
                     "targets": "Textural Irregularities, Dullness, Uneven Skin Tone",
                     "skin_type": "All Skin Types",
                     "format": "Water-based Toner",
-                    "size": "100ml",
+                    "sizes": [
+                        {
+                            "volume": "100ml",
+                            "price": "10.40"
+                        },
+                        {
+                            "volume": "240ml",
+                            "price": "15.60"
+                        }
+                      ],
                     "category": "Skincare > Toners"
                 }
             ]
@@ -74,8 +99,10 @@
             "name": "Squalane Cleanser",
             "url": "",
             "image": "squalane.webp",
-            "price": "75.00",
-            "description": "Squalane Cleanser is formulated to clean skin by removing makeup and dirt. This cleanser also supports your skin’s moisture barrier through hydration. Its skin-cleansing properties harness plant-derived squalane, a well-studied moisturizing agent, alongside lipophilic esters that will leave your skin feeling smooth and soft while dissolving makeup. The formula is non-comedogenic and soap-free so it’s gentle enough for daily use, suitable for all skin types, and suitable to combine with our other products.",
+            "description": "Formulated to clean skin by removing makeup and dirt. This cleanser also supports your skin’s moisture barrier through hydration. Its skin-cleansing properties harness plant-derived squalane, a well-studied moisturizing agent, alongside lipophilic esters that will leave your skin feeling smooth and soft while dissolving makeup.",
+            "gallery": [
+                "squalane.webp", "squalane-1.webp", "squalane-2.webp", "squalane-3.webp"
+            ],
             "attributes": [
                 {
                     "short_description": "A moisturizing all-in-one cleanser.",
@@ -83,7 +110,16 @@
                     "targets": "Cleansing, Dryness",
                     "skin_type": "All Skin Types",
                     "format": "Emulsion",
-                    "size": "50ml",
+                    "sizes": [
+                        {
+                            "volume": "50ml",
+                            "price": "12.60"
+                        },
+                        {
+                            "volume": "150ml",
+                            "price": "25.20"
+                        }
+                      ],
                     "category": "Skincare > Facial Cleansers"
                 }
             ]
@@ -93,8 +129,10 @@
             "name": "Azelaic Acid Suspension 10%",
             "url": "",
             "image": "rdn-azelaic-acid-suspension-10pct-30ml.webp",
-            "price": "14.60",
-            "description": "This Advanced Retinoid Eye Balm literally melts into your skin, infusing it with proven ingredients that visibly soften fine lines and wrinkles while firming and restoring bounce. Granactive retinoid—a gentler, less irritating form of retinol—reforms texture to reduce the appearance of crow’s feet (and may even help reduce milia—those tiny, flesh-colored bumps that commonly appear around the eyes). This eye balm also features shiitake mushroom extract to support the skin’s moisture barrier, and nourishing antioxidants like vitamin E and black currant seed oil to help protect against premature signs of aging while moisturizing the delicate skin around your eyes.",
+            "description": "A cream-like formula that brightens skin tone and visibly improves skin texture due to a high concentration of azelaic acid—a natural and effective antioxidant found in grains. It has a lower irritation potential than other direct acids, which means it’s gentle enough for daily use as part of your skincare regimen.",
+            "gallery": [
+                "rdn-azelaic-acid-suspension-10pct-30ml.webp", "azelaic-2.webp", "azelaic-3.webp", "azelaic-4.jpg"
+            ],
             "attributes": [
                 {
                     "short_description": "A formula for uneven and blemish-prone skin.",
@@ -102,7 +140,16 @@
                     "targets": "Textural Irregularities, Dullness, Uneven Skin Tone, Look of Redness",
                     "skin_type": "All Skin Types",
                     "format": "Suspension",
-                    "size": "30ml",
+                    "sizes": [
+                        {
+                            "volume": "30ml",
+                            "price": "14.60"
+                        },
+                        {
+                            "volume": "100ml",
+                            "price": "34.60"
+                        }
+                      ],
                     "category": "Skincare > Facial Cleansers"
                 }
             ]
@@ -112,16 +159,49 @@
             "name": "Multi-Peptide + Copper Peptides 1% Serum",
             "url": "",
             "image": "multi-peptide-copper-peptides.webp",
-            "price": "38.40",
-            "description": "This Advanced Retinoid Eye Balm literally melts into your skin, infusing it with proven ingredients that visibly soften fine lines and wrinkles while firming and restoring bounce. Granactive retinoid—a gentler, less irritating form of retinol—reforms texture to reduce the appearance of crow’s feet (and may even help reduce milia—those tiny, flesh-colored bumps that commonly appear around the eyes). This eye balm also features shiitake mushroom extract to support the skin’s moisture barrier, and nourishing antioxidants like vitamin E and black currant seed oil to help protect against premature signs of aging while moisturizing the delicate skin around your eyes.",
+            "description": "Helps to improve the appearance of fine and dynamic lines and supports your skin’s overall elasticity, smoothness and firmness.",
+            "gallery": [
+                "multi-peptide-copper-peptides.webp", "multi-2.webp", "multi-3.webp", "multi-4.webp"
+            ],
             "attributes": [
                 {
-                    "short_description": "A formula for uneven and blemish-prone skin.",
+                    "short_description": "An advanced age-supporting serum with additional antioxidant support.",
                     "ingredients": "Aqua (Water), Glycerin, Lactococcus Ferment Lysate, Copper Tripeptide-1, Acetyl Hexapeptide-8, Pentapeptide-18, Palmitoyl Tripeptide-1, Palmitoyl Tetrapeptide-7, Palmitoyl Tripeptide-38, Dipeptide Diaminobutyroyl Benzylamide Diacetate, Acetylarginyltryptophyl Diphenylglycine, Sodium Hyaluronate Crosspolymer, Sodium Hyaluronate, Allantoin, Glycine, Alanine, Serine, Valine, Isoleucine, Proline, Threonine, Histidine, Phenylalanine, Arginine, Aspartic Acid, Trehalose, Fructose, Glucose, Maltose, Urea, Sodium Pca, Pca, Sodium Lactate, Citric Acid, Hydroxypropyl Cyclodextrin, Sodium Chloride, Sodium Hydroxide, Butylene Glycol, Pentylene Glycol, Acacia Senegal Gum, Xanthan Gum, Carbomer, Polysorbate 20, Dimethyl Isosorbide, Sodium Benzoate, Caprylyl Glycol, Ethylhexylglycerin, Phenoxyethanol, Chlorphenesin.",
                     "targets": "Signs of Aging, Crow's Feet",
                     "skin_type": "All Skin Types",
                     "format": "Water-based Serum",
-                    "size": "30ml",
+                    "sizes": [
+                        {
+                            "volume": "30ml",
+                            "price": "38.40"
+                        }
+                      ],
+                    "category": "Skincare > Serums"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Retinal 0.2% Emulsion",
+            "url": "",
+            "image": "ord-retinal-02pct-emulsion-15ml.webp",
+            "description": "High strength retinoid formula that rapidly firms and smooths skin, while noticeably reducing the appearance of dark spots. It helps refine skin texture, while targeting uneven tone and boosting luminosity for brighter, more even-looking skin.",
+            "gallery": [
+                "ord-retinal-02pct-emulsion-15ml.webp", "retinal-2.webp", "retinal-3.webp", "retinal-4.webp"
+            ],
+            "attributes": [
+                {
+                    "short_description": "Refine skin texture, boosting luminosity for brighter, more even-looking skin.",
+                    "ingredients": "Aqua (Water), Coco-Caprylate/Caprate, Propanediol, Pentylene Glycol, Hydroxyapatite, Retinal, Cetylhydroxyproline Palmitamide, 4-t-Butylcyclohexanol, Hydroxyphenyl Propamidobenzoic Acid, Ergothioneine, Biosaccharide Gum-1, Bisabolol, Brassica Campestris Sterols, Zingiber Officinale Root Extract, Butylene Glycol, Isohexadecane, Hexyldecanol, Maltodextrin, Caesalpinia Spinosa Gum, Polyacrylate Crosspolymer-6, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Stearic Acid, Isoceteth-20, Polysorbate 60, Ascorbyl Palmitate, Tocopherol, Lactic Acid, Sodium Lactate, Sodium Hydroxide, Ethylhexylglycerin, Phenoxyethanol, Chlorphenesin.",
+                    "targets": "Signs of Aging, Textural Irregularities, Crow's Feet, Uneven Skin Tone",
+                    "skin_type": "All Skin Types",
+                    "format": "Emulsion",
+                    "sizes": [
+                        {
+                          "volume": "15ml",
+                          "price": "17.90"
+                        }
+                      ],
                     "category": "Skincare > Serums"
                 }
             ]

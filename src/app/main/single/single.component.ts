@@ -45,7 +45,6 @@ export class SingleComponent implements OnInit {
     });
   }
 
-
   slideFor = {
     slidesToShow: 1, 
     slidesToScroll: 1,
@@ -66,6 +65,12 @@ export class SingleComponent implements OnInit {
 
   selectSize(size: any): void {
     this.selectedSize = size;
+  }
+
+  more() {
+    const ingredients = document.getElementById('hide');
+
+    ingredients?.classList.toggle('show');
   }
 }
  

@@ -30,8 +30,12 @@
 
         </div>
         <div class="content">
-            <div class="targets">MADE FOR {{ product.attributes[0].targets }}</div>
+            <div class="category">{{ product.attributes[0].category }}</div>
             <h1>{{ product.name }}</h1>
+
+            <div class="links">
+              <a href="#">4.9 Reviews</a>  | <a href="#">How to use</a> | <a href="#" class="icon heart">Favorite</a>
+            </div>
 
             <div class="description">
                 <p>{{ product.description }}</p>
@@ -49,7 +53,7 @@
                        <span>${{ selectedSize.price  }}</span> 
                     </div>
                     <ng-template #noSelectedSize>
-                        <span>${{ product.attributes[0].sizes[0].price  }}</span>
+                        <span>${{ product.attributes[0].sizes[0].price }}</span>
                     </ng-template>
                 </div> 
             </div>                 
@@ -60,10 +64,22 @@
                     <input type="text" id="quantity-input" placeholder="1" required />
                     <button type="button" id="increment-button"> + </button>
                 </div>
-                <button type="submit" name="add-to-cart" value="102" class="add-to-cart btn">Add to cart</button>
+                <button type="submit" name="add-to-cart" value="102" class="add-to-cart btn">Add To Cart</button>                
             </form>
-            
+            <div class="freeship">Free shipping for orders over $15</div>
 
+            <div class="informations">
+                <div class="targets"><div class="label">Targets:</div> {{ product.attributes[0].targets }}</div>
+                <div class="targets"><div class="label">Suited to:</div> {{ product.attributes[0].skin_type }}</div>
+                <div class="targets"><div class="label">Format:</div> {{ product.attributes[0].format }}</div>
+                <div class="ingredients">
+                    <div class="label">Ingredients:</div> 
+                    <div class="hide" id="hide">
+                        {{ product.attributes[0].ingredients }}
+                    </div>
+                    <button class="more" aria-label="Read all ingredients" (click)="more()">Read all ingredients</button>
+                </div>
+            </div>
         </div>
       </div>
     </div>

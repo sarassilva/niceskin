@@ -16,7 +16,7 @@
                                 <h4><a [routerLink]="['/products', slide.id]">{{slide.name}}</a> </h4>
                                 <h5>{{slide.attributes[0].short_description}}</h5>
                             </div>
-                            <div class="price">${{slide.price}}</div>
+                            <div class="price">${{ slide.attributes[0].sizes[0].price }}</div>
                         </div> 
                     </div>
                 }
