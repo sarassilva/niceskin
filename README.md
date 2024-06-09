@@ -1,27 +1,54 @@
+
 # Niceskin
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.4.
+Nice Skin is a cosmetics e-commerce platform developed in Angular 17. The project is under continuous development, with possible changes to the structure and backend.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Description
 
-## Code scaffolding
+Nice Skin is a platform where users can explore and purchase a variety of cosmetic products. The goal is to create a user-friendly and intuitive online shopping experience for skincare enthusiasts.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Installation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To install and run the project locally, follow the steps below:
 
-## Running unit tests
+### 💻 Prerequisites 
+- Node.js and npm installed.
+- Angular CLI installed globally.
+- json-server installed globally.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### 🚀 Steps 
 
-## Running end-to-end tests
+Clone the repository:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+ git clone https://github.com/sarassilva/niceskin.git
+ cd niceskin
+```
 
-## Further help
+Install the project dependencies:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+ npm install
+```
+
+Start the json-server:
+
+```bash
+ cd src/data
+ json-server --watch feed.json
+```
+
+Start the Angular server:
+
+```bash
+cd ../..
+ng serve
+```
+
+Access the application in your browser at http://localhost:4200.
+
+## ☕ Usage
+
+After following the installation steps, you can access the Niceskin e-commerce platform locally. Navigation and functionality can be explored as development progresses.
