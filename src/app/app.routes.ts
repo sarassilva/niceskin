@@ -6,8 +6,9 @@ import { SingleComponent } from './main/single/single.component';
 
 export const routes: Routes = [    
     { 
-        path: '',   
-        component:HomeComponent 
+        path: '',
+        title: 'Niceskin',   
+        component:HomeComponent,
     },
     { 
         path: 'products', 
@@ -17,7 +18,7 @@ export const routes: Routes = [
     },
     {
         path:'products/:id', 
-        component: SingleComponent 
+        component: SingleComponent,
     },    
     { 
         path: '**', 
