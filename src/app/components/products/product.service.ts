@@ -8,7 +8,7 @@ import { Observable, catchError, map, of } from 'rxjs';
 
 export class ProductService {
 
-  private apiUrl = 'https://niceskin.vercel.app:3000/products';
+  private apiUrl = 'https://raw.githubusercontent.com/sarassilva/niceskin/master/src/data/feed.json';
   
   constructor(private http: HttpClient) { }
 
